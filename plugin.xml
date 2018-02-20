@@ -14,8 +14,6 @@
 	<engines>
 	    <engine name="cordova" version=">=3.5" />
 	</engines>
-
-    <dependency id="cordova-plugin-admob-sas"/>
     
     <platform name="android">
         <source-file src="SASCustomEventBanner.java" target-dir="src/cordova/plugin/admob/sas" />

@@ -1,0 +1,27 @@
+{
+    "name": "cordova-plugin-admob-sas",
+    "version": "1.0.0",
+    "description": "Cordova plugin for AdMob adapter to Smart AdServer",
+    "cordova": {
+      "id": "cordova-plugin-admob-sas",
+      "platforms": [
+        "ios",
+        "android"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sevendus/cordova-plugin-admob-sas.git"
+    },
+    "keywords": [
+      "cordova",
+      "ecosystem:cordova",
+      "ad",
+      "smart",
+      "sas"
+    ],
+    "author": {
+      "name": "SeVeNDuS"
+    },
+    "license": "MIT"
+  }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="cordova-plugin-admob-sas"
+	version="1.0.0">
+      
+    <name>AdMob Mediation Adapter for Smart Ad Server</name>
+	<description>AdMob Mediation Adapter for Smart Ad Server</description>
+	<keywords>admob,mediation,smart adserver,sas</keywords>
+    <repo>https://github.com/SeVeNDuS/cordova-plugin-admob-sas.git</repo>
+    <issue>https://github.com/SeVeNDuS/cordova-plugin-admob-sas/issues</issue>
+
+	<engines>
+	    <engine name="cordova" version=">=3.5" />
+	</engines>
+
+    <dependency id="cordova-plugin-admob-sas"/>
+    
+    <platform name="android">
+        <source-file src="SASCustomEventBanner.java" target-dir="src/cordova/plugin/admob/sas" />
+        <source-file src="SASCustomEventInterstitial.java" target-dir="src/cordova/plugin/admob/sas" />
+        <source-file src="SASCustomEventNative.java" target-dir="src/cordova/plugin/admob/sas" />
+        <source-file src="SASCustomEventUtil.java" target-dir="src/cordova/plugin/admob/sas" />
+     </platform>
+
+     <platform name="ios">    
+        <header-file src="src/ios/SASAdView+GAD.h" />
+        <source-file src="src/ios/SASAdView+GAD.m" />
+        <header-file src="src/ios/SASGADCustomEventBanner.h" />
+        <source-file src="src/ios/SASGADCustomEventBanner.m" />
+        <header-file src="src/ios/SASGADCustomEventInterstitial.h" />
+        <source-file src="src/ios/SASGADCustomEventInterstitial.m" />
+        <header-file src="src/ios/SASGADCustomEventConstants.h" />
+	</platform>
+
+</plugin>
